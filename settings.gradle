@@ -3,4 +3,5 @@ rootProject.name = 'spring-cloud-demo'
 include 'config-server'
 include 'discovery-server'
 include 'gateway-server'
+include 'book-service'
 
