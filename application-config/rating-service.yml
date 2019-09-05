@@ -6,10 +6,7 @@ spring:
     name: rating-service
 
 eureka:
-  instance:
-    hostname: localhost
   client:
-    serviceUrl:
-      defaultZone: http://localhost:8082/eureka/
-    register-with-eureka: false
-    fetch-registry: false
+    region: default
+    registryFetchIntervalSeconds: 5
+    defaultZone: http://localhost:8082/eureka/
